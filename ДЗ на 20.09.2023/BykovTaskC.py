@@ -1,2 +1,2 @@
 n = int(input())
-print(n // 2 if n % 2 == 0 else 0)
+print(0 if n % 2 else n // 2)
